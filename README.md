@@ -26,3 +26,7 @@ And then opening at:
 Run:
 
 `yarn test`
+
+### Notes
+
+Surely more tests could be added, like in depth on components, even more integration or using e2e. But even though I finished it while having time, my agenda/schedule today was not so good and I have to rest now.
