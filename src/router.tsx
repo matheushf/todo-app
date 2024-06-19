@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HomePage } from "./pages/Home/HomePage";
+import { TodoApp } from "./modules/TodoApp/TodoApp";
 
 export function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/todo-app/home" element={<TodoApp />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
-import { HomePage } from "../HomePage";
+import { TodoApp } from "../TodoApp";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 const queryClient = new QueryClient({
@@ -16,12 +16,12 @@ const queryClient = new QueryClient({
 function renderPage() {
   render(
     <QueryClientProvider client={queryClient}>
-      <HomePage />
+      <TodoApp />
     </QueryClientProvider>
   );
 }
 
-describe("HomePage", () => {
+describe("TodoApp", () => {
   beforeEach(() => {
     localStorage.clear();
   });

@@ -19,7 +19,7 @@ And running the server:
 
 And then opening at:
 
-`http://localhost:5173`
+`http://localhost:5173/todo-app/home`
 
 ## Testing
 
